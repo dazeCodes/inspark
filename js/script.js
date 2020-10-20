@@ -52,4 +52,9 @@ window.onload = function() {
     if (toRotate) {
       new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
-}}
+}
+var css = document.createElement("style");
+css = "text/css";
+css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+document.body.appendChild(css);
+};

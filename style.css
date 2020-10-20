@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 @font-face {
   font-family: metropolis-400;
@@ -9,7 +9,7 @@
   src: url(Metropolis/Metropolis-Medium.otf);
 }
 :root {
-  --blue: #0668e3;
+  --blue: #234095;
   --yellow: #f2ea1b;
   --black: #18191f;
   --midblack: #474a57;
@@ -58,8 +58,12 @@
   font-family: graphik-600;
 }
 .hfont-800 {
-  font-family: "EB Garamond", serif;
+  font-family: "Montserrat", sans-serif;
 }
-* {
-  border: 1px solid var(--yellow);
+
+.hero-image {
+  width: 20rem;
+}
+.icon {
+  width: 12rem;
 }
