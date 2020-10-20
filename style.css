@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap");
+
+@font-face {
+  font-family: metropolis-400;
+  src: url(Metropolis/Metropolis-Regular.otf);
+}
+@font-face {
+  font-family: metropolis-600;
+  src: url(Metropolis/Metropolis-Medium.otf);
+}
+:root {
+  --blue: #0668e3;
+  --yellow: #f2ea1b;
+  --black: #18191f;
+  --midblack: #474a57;
+  --white: #ffffff;
+  --midwhite: #fafafa;
+  --grey: #efefef;
+}
+.blue-bg {
+  background-color: var(--blue);
+}
+.yellow-bg {
+  background-color: var(--yellow);
+}
+.midwhite-bg {
+  background-color: var(--midwhite);
+}
+.white-bg {
+  background-color: var(--white);
+}
+.black-txt {
+  color: var(--black);
+}
+.midblack-txt {
+  color: var(--midblack);
+}
+.blue-txt {
+  color: var(--blue);
+}
+.yellow-txt {
+  color: var(--yellow);
+}
+.black-txt {
+  color: var(--black);
+}
+.white-txt {
+  color: var(--midwhite);
+}
+.sec-white-txt {
+  color: var(--grey);
+}
+
+.metro-400 {
+  font-family: metropolis-400;
+}
+.metro-600 {
+  font-family: graphik-600;
+}
+.hfont-800 {
+  font-family: "EB Garamond", serif;
+}
+* {
+  border: 1px solid var(--yellow);
+}
