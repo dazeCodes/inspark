@@ -78,7 +78,7 @@
 }
 .angle {
   background: url(./img/background-angle.svg);
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
