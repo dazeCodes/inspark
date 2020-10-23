@@ -73,7 +73,7 @@
 .bg {
   background: url(./img/bg-mobile.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 97%;
 }
 
 .hero-image {
