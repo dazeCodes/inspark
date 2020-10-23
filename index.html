@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="midwhite-bg h-screen">
-    <nav class="flex items-center justify-between flex-wrap p-6 w-full top-0">
+    <section class="midwhite-bg h-full">
+    <nav class="flex items-center justify-between flex-wrap p-6 sm:p-12 w-full top-0">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <a class="" href="index.html">
+            <a href="index.html">
                 <img src="img/cropped-inspark_final_presentation_1a-1 1@2x.png" class="w-32">
             </a>
         </div>
@@ -43,7 +43,7 @@
     </nav>
 
     <!-- left section of hero (with text) -->
-    <section class="flex items-center justify-between flex-wrap p-6 w-full top-0">
+    <section class="flex items-center justify-between flex-wrap p-6 sm:p-12 w-full top-0">
         <header class="hfont-800 blue-txt h-24 mb-6">
             <h1 class="text-2xl">We build and elevate
                 <span
@@ -53,29 +53,30 @@
             </h1>
         </header>
         <aside class="midblack-txt metro-400 mb-6">
-            <h2>
+            <h2 class="relative z-30">
                 Inspark Enterprise is a full-service digital agency specializing in digital consulting, web design & development, application design & development, and digital marketing.
             </h2>
         </aside>
         <aside>
             <a href="#"
             ><button
-              class="blue-bg py-2 px-8 text-lg rounded-md white-txt focus:outline-none hfont-600 z-10"
+              class="relative blue-bg py-2 px-8 text-lg rounded-md white-txt focus:outline-none hfont-600 z-10"
             >
               Request a Quote
             </button></a
           >
         </aside>
     </section>
+
     <!-- right section of hero (with image) -->
-    <section class="p-6 pr-0 h-64">
-        <aside class="ml-24 -mt-24">
-            <img src="img/second-idea-ekene.svg" alt="hero-image" class="hero z-0">
+    <section class="p-6 sm:p-12 pr-0 h-64">
+        <aside class="relative ml-32 sm:ml-64 -mt-40 z-0">
+            <img src="img/second-idea-ekene.svg" alt="hero-image" class="hero">
     </aside>
     </section>
 
-    <section class="p-6 h-10 w-full flex justify-end -mt-8">
-        <aside class="h-8 w-1/2 flex justify-between">
+    <section class="p-6 sm:p-12 h-32 w-full flex justify-end -mt-32 sm:-mt-10 angle z-20 relative">
+        <aside class="h-8 w-1/2 sm:w-2/5 mt-6 flex justify-between">
             <img src="img/facebook.png" alt="social" class="w-8">
             <img src="img/Instagram.png" alt="social" class="w-8">
             <img src="img/Twitter.png" alt="social" class="w-8">
@@ -84,6 +85,11 @@
         </aside>
     </section>
 </section>
-    <script src="js/script.js"></script>
+<!-- end of section one with lighter gray -->
+
+<section class="white-bg">
+
+</section>
+<script src="js/script.js"></script>
 </body>
 </html>

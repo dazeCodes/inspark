@@ -76,3 +76,28 @@
 .icon {
   width: 12rem;
 }
+.angle {
+  background: url(./img/background-angle.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  /* ... */
+}
