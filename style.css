@@ -70,13 +70,7 @@
   font-weight: 600;
 }
 
-.bg {
-  background: url(./img/bg-mobile.png);
-  background-repeat: no-repeat;
-  background-size: 100% 97%;
-}
-
-.hero-image {
+.hero {
   width: 20rem;
 }
 .icon {
