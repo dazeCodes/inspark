@@ -3,93 +3,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <title>Document</title>
+    <title>iNSPARK</title>
 </head>
 <body>
-    <section class="midwhite-bg h-screen">
-    <nav class="flex items-center justify-between flex-wrap p-6 sm:p-12 w-full top-0">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <a href="index.html">
-                <img src="img/cropped-inspark_final_presentation_1a-1 1@2x.png" class="w-32">
-            </a>
-        </div>
-    
-        <div class="block lg:hidden">
-            <button id="nav-toggle" class="flex items-center justify-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-            </button>
-        </div>
-    
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
-            <ul class="list-reset lg:flex justify-end flex-1 items-center">
-                <li class="mr-3">
-                    <a class="inline-block py-2 px-4 no-underline" href="index.html">Home</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block no-underline py-2 px-4" href="#">About Us</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block no-underline py-2 px-4" href="#">Portfolio</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block no-underline py-2 px-4" href="#">Blog</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block no-underline py-2 px-4" href="#">Contact Us</a>
-                </li>
+    <header>
+        <!-- <div class="logo-div">
+            <img src="img/cropped-inspark_final_presentation_1a-1 1@2x.png" alt="website logo" class="logo">
+        </div> -->
+
+        <nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#" class="link-item">About</a></li>
+                <li><a href="#" class="link-item">Portfolio</a></li>
+                <li><a href="#" class="link-item">Blog</a></li>
+                <li><a href="#" class="link-item">Contact</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- left section of hero (with text) -->
-    <section class="flex items-center justify-between flex-wrap p-6 sm:p-12 w-full top-0">
-        <header class="hfont-800 blue-txt h-24 mb-6">
-            <h1 class="text-2xl">We build and elevate
-                <span
-     class="txt-rotate text-4xl block"
-     data-period="2000"
-     data-rotate='[ "your business...", "your brand...", "your websites...", "your media...", "your everything!!!" ]'></span>
-            </h1>
-        </header>
-        <aside class="midblack-txt metro-400 mb-6">
-            <h2 class="relative z-30">
-                Inspark Enterprise is a full-service digital agency specializing in digital consulting, web design & development, application design & development, and digital marketing.
-            </h2>
-        </aside>
-        <aside>
-            <a href="#"
-            ><button
-              class="relative blue-bg py-2 px-8 text-lg rounded-md white-txt focus:outline-none hfont-600 z-10"
-            >
-              Request a Quote
-            </button></a
-          >
-        </aside>
-    </section>
+    <main>
+        <section class="sect-one">
+            <article>
+            <h1 class="sect-h1">We spark up
+            <span
+               class="Txt-rotate"
+               data-period="2000"
+               data-rotate='[ "your websites...", "your brand...", "your product...", "your media...", "your business..." ]'></span>
+          </h1>
+          <p>
+            Inspark Enterprise is a full-service digital agency specializing in digital consulting, web design & development,
+             application design & development, and digital marketing.
+          </p>
+          <a href="index.html"><button class="request-btn">Request a Quote</button></a>
+        </article>
+        <section class="hero-section">
+            <img src="img/second-idea-ekene.svg" alt="hero-wahala">
 
-    <!-- right section of hero (with image) -->
-    <section class="p-6 sm:p-12 pr-0 h-64">
-        <aside class="relative ml-32 sm:ml-64 -mt-16 z-0">
-            <img src="img/second-idea-ekene.svg" alt="hero-image" class="hero">
-    </aside>
-    </section>
-
-    <section class="p-6 sm:p-12 h-32 w-full flex justify-end -mt-10 sm:mt-8 angle z-20 relative">
-        <aside class="h-8 w-1/2 sm:w-2/5 mt-6 flex justify-between">
-            <img src="img/facebook.png" alt="social" class="w-8">
-            <img src="img/Instagram.png" alt="social" class="w-8">
-            <img src="img/Twitter.png" alt="social" class="w-8">
-            <img src="img/LinkedIn.png" alt="social" class="w-8">
-            <img src="img/Inbox.png" alt="social" class="w-8">
-        </aside>
-    </section>
-</section>
-<!-- end of section one with lighter gray -->
-
-<section class="white-bg h-64">
-
-</section>
-<script src="js/script.js"></script>
+        </section>
+          </section>
+    </main>
+    <script src="js/nav-animation.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

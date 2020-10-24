@@ -1,9 +1,4 @@
-    //Javascript to toggle the menu
-    document.getElementById('nav-toggle').onclick = function(){
-        document.getElementById("nav-content").classList.toggle("hidden");
-    }
-
-    var TxtRotate = function(el, toRotate, period) {
+var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
@@ -52,9 +47,9 @@ window.onload = function() {
     if (toRotate) {
       new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
-}
-var css = document.createElement("style");
-css = "text/css";
-css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-document.body.appendChild(css);
+  }
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
 };
