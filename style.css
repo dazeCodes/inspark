@@ -193,7 +193,7 @@ nav {
     padding: 0 0px;
   }
   .sect-one {
-    padding: 80px 30px;
+    padding: 40px 30px;
   }
   .sect-one h1 {
     font-size: 32px;
@@ -206,19 +206,19 @@ nav {
     margin-top: 94px;
     font-size: 17.2px;
     line-height: 30px;
-    width: 65%;
+    width: 100%;
   }
   .request-btn {
     padding: 12px 30px;
     font-size: 16.8px;
   }
   .hero-section {
-    top: 42%;
+    top: 5%;
     right: 30px;
     z-index: -20;
   }
   .hero-section img {
-    width: 100%;
+    width: 0%;
   }
   .logo-div {
     /* display: none; */
