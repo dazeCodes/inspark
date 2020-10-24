@@ -24,6 +24,10 @@ font-size: 14px */
   --midwhite: #fafafa;
   --grey: #efefef;
 }
+.main1 {
+  background-color: var(--midwhite);
+  height: 90vh;
+}
 * {
   /* border: 1px solid red !important;s */
   margin: 0;
@@ -39,6 +43,7 @@ header {
   justify-content: space-between;
   height: 10vh;
   padding: 0 160px;
+  background-color: var(--midwhite);
 }
 nav {
   height: 10vh;
@@ -109,6 +114,22 @@ nav {
 }
 .hero-section img {
   width: 76%;
+}
+.social-sect {
+  display: flex;
+  justify-content: flex-end;
+  height: 10vh;
+}
+.social-sect div {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 160px;
+  width: 50%;
+}
+.social-sect div img {
+  width: 2.6rem;
+  height: 2.6rem;
 }
 
 /* Large (lg) */
