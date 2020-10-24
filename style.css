@@ -104,11 +104,11 @@ nav {
 .hero-section {
   width: 50%;
   position: absolute;
-  top: 10%;
+  top: 15%;
   right: -5%;
 }
 .hero-section img {
-  width: 80%;
+  width: 76%;
 }
 
 /* Large (lg) */
@@ -136,6 +136,14 @@ nav {
     padding: 14px 30px;
     font-size: 17.2px;
   }
+  .hero-section {
+    width: 50%;
+    top: 20%;
+    right: -8%;
+  }
+  .hero-section img {
+    width: 76%;
+  }
 }
 
 /* Medium (md) */
@@ -146,6 +154,16 @@ nav {
   .sect-one {
     padding: 180px 40px;
   }
+  .sect-one p {
+    width: 56%;
+  }
+  .hero-section {
+    width: 50%;
+    top: 30%;
+  }
+  .hero-section img {
+    width: 76%;
+  }
 }
 
 /* Medium (md) */
@@ -154,7 +172,7 @@ nav {
     padding: 0 0px;
   }
   .sect-one {
-    padding: 180px 30px;
+    padding: 80px 30px;
   }
   .sect-one h1 {
     font-size: 32px;
@@ -172,6 +190,14 @@ nav {
   .request-btn {
     padding: 12px 30px;
     font-size: 16.8px;
+  }
+  .hero-section {
+    top: 42%;
+    right: 30px;
+    z-index: -20;
+  }
+  .hero-section img {
+    width: 100%;
   }
   .logo-div {
     /* display: none; */
