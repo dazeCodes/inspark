@@ -190,7 +190,8 @@ nav {
 #approach,
 #why,
 #portfolio,
-#contact {
+#contact,
+#blog {
 	display: flex;
 	align-items: center;
 }
@@ -262,7 +263,8 @@ nav {
 #approach .col,
 #why .col,
 #portfolio .col,
-#contact .col {
+#contact .col,
+#blog .col {
 	display: flex;
 }
 #approach .image img {
@@ -314,6 +316,7 @@ nav {
 	background-color: var(--grey);
 	margin-bottom: 1rem;
 	padding: 0 1rem;
+	font-family: pri;
 }
 #contact .col .image input:last-child {
 	height: 8.2rem;
@@ -328,6 +331,42 @@ nav {
 }
 #contact .col .text div p {
 	margin-left: 1rem;
+}
+#blog {
+	height: 20vh;
+	padding: 0 24rem;
+}
+#blog .col {
+	width: 100%;
+}
+#blog .col .text {
+	display: flex;
+	justify-content: flex-start;
+	flex: 0.6;
+}
+#blog .col .image {
+	display: flex;
+	flex: 0.4;
+}
+#blog .col .image input {
+	width: 100%;
+	height: 3rem;
+	margin-bottom: auto;
+	margin-top: 1.3rem;
+	padding: 0 1rem;
+	border: 2px solid rgba(35, 64, 149, 0.5);
+	font-family: pri;
+	border-radius: 8px;
+	color: var(--blue);
+}
+#blog .col .image input:hover {
+	border: 3px solid var(--blue);
+	transition: 0.2s ease;
+}
+
+footer {
+	height: 72vh;
+	background-color: yellow;
 }
 @media only screen and (max-width: 768px) {
 	.bar {
