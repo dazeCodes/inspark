@@ -41,7 +41,7 @@ h2 {
 }
 h3 {
 	font-family: 'Fira Sans';
-	font-size: 1.86em;
+	font-size: 1.68em;
 	font-weight: 700;
 }
 #logo {
@@ -212,13 +212,75 @@ nav {
 	font-size: 1.2rem;
 }
 #our-approach {
-	padding: 5rem 0;
+	background: url(./img/blue-approach.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 12rem 0;
+}
+#our-approach .col {
+	display: flex;
+	margin: 0 7%;
+}
+#our-approach .image img {
+	width: 100%;
+	object-fit: contain;
+	border-radius: 8px;
 }
 #our-approach .col .image {
-	flex: 0.3;
 	display: flex;
+	flex: 0.5;
 	align-items: center;
 	justify-content: center;
+}
+#our-approach .col .text {
+	flex: 0.5;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-left: 2rem;
+}
+#our-approach .col .text h2 {
+	color: var(--white);
+	padding: 2rem 0;
+}
+#our-approach .col .text p {
+	color: var(--midwhite);
+	line-height: 1.6rem;
+}
+
+#our-mission {
+	padding: 12rem 0;
+}
+
+#our-mission h2 {
+	color: var(--blue);
+	margin-bottom: 2rem;
+}
+
+#our-mission p {
+	color: var(--midblack);
+	line-height: 1.6rem;
+}
+
+#our-mission .col {
+	display: flex;
+	margin: 0 7%;
+	justify-content: space-between;
+}
+#our-mission .col .image {
+	display: flex;
+	flex: 0.5;
+	align-items: center;
+	justify-content: flex-end;
+}
+#our-mission .col .text {
+	flex: 0.5;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-right: 2rem;
 }
 @media only screen and (max-width: 768px) {
 	.bar {
