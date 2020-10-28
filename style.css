@@ -253,7 +253,7 @@ nav {
 	padding: 12rem 0;
 }
 
-#our-mission h2 {
+#our-mission .col .text h2 {
 	color: var(--blue);
 	margin: 2rem 0;
 }
