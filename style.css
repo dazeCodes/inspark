@@ -145,10 +145,12 @@ nav {
 }
 
 #hero .image {
-	flex: 0.4;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	flex-direction: column;
+}
+#hero .image div {
+	display: inline-flex;
+	flex-direction: ;
+	margin: 0 0 0 auto;
 }
 #hero > .image > img {
 	/* width: 100%; */
@@ -367,6 +369,57 @@ nav {
 footer {
 	height: 72vh;
 	background-color: yellow;
+}
+
+@media only screen and (max-width: 1024px) {
+	#hero .text {
+		flex: 0.6;
+	}
+
+	#hero .text h1 {
+		margin-bottom: 1.75rem;
+		width: 70%;
+	}
+
+	#hero .text p {
+		margin-bottom: 3rem;
+		width: 70%;
+		line-height: 1.6rem;
+		color: var(--midblack);
+	}
+
+	#hero .image {
+		flex: 0.4;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#hero > .image > img {
+		width: 100%;
+		margin: 0 auto 0 0;
+	}
+	#hero .request-btn,
+	#contact .col .image button {
+		font-family: 'Fira Sans', sans-serif;
+		font-weight: 600;
+		margin-top: 4%;
+		padding: 14px 34px;
+		color: var(--midwhite);
+		background: var(--blue);
+		border: none;
+		font-size: 1.125rem;
+		border-radius: 8px;
+	}
+
+	#hero .image div {
+		display: flex;
+		flex-direction: column;
+		height: 240px;
+		justify-content: space-around;
+	}
+	#hero .image div img {
+		width: 36px;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.bar {
