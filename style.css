@@ -589,7 +589,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 520px) {
 	#hero .text h1 {
 		margin-top: 4rem;
 		height: 6rem;
@@ -620,12 +620,6 @@ footer {
 	#blog .col {
 		flex-direction: column;
 	}
-	#approach .col .image {
-		order: 1;
-	}
-	#approach .col .text {
-		order: 0;
-	}
 	#services .row .col-1,
 	#services .row .col-2,
 	#services .row .col-3 {
@@ -636,15 +630,26 @@ footer {
 	}
 	#approach .col .image,
 	#why .col .image,
-	#portfolio .col .image,
-	#contact .col .image {
+	#portfolio .col .image {
 		width: 100%;
+		order: 1;
 	}
 	#approach .col .text,
 	#why .col .text,
 	#portfolio .col .text,
 	#contact .col .text {
 		margin-left: 0;
+		order: 0;
+	}
+	#why .col .text h2,
+	#portfolio .col .text h2,
+	#approach .col .text h2 {
+		margin-bottom: 1rem;
+	}
+	#why .col .text p:nth-of-type(2),
+	#portfolio .col .text p,
+	#approach .col .text p {
+		margin-bottom: 3.6rem;
 	}
 }
 
