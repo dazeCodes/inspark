@@ -386,11 +386,23 @@ footer {
 	}
 	#hero > .image > div {
 		flex-direction: row;
-		/* background-color: red; */
 		height: 36px;
 		margin: 2rem 0 0 auto;
 		width: 80%;
 	}
+
+	/* note */
+	#hero,
+	#services,
+	#approach,
+	#why,
+	#portfolio,
+	#contact {
+		width: 88%;
+		min-height: 100%;
+		padding: 0 6%;
+	}
+	/*  */
 }
 @media only screen and (max-width: 768px) {
 	.bar {
