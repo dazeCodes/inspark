@@ -4,11 +4,6 @@
 	font-family: pri;
 	src: url(Metropolis/Metropolis-Regular.otf);
 }
-/* font-size: 38px
-font-size: 32px
-font-size: 24px
-font-size: 18px
-font-size: 14px */
 
 :root {
 	--blue: #234095;
@@ -440,7 +435,6 @@ footer {
 	nav > .container {
 		padding: 0;
 	}
-}
 	#hero .text h1 {
 		width: 100%;
 		height: 4rem;
@@ -595,10 +589,64 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 420px) {
-
+@media only screen and (max-width: 480px) {
+	#hero .text h1 {
+		margin-top: 4rem;
+		height: 6rem;
+	}
+	#hero .text p {
+		width: 100%;
+	}
+	#hero {
+		width: 100%;
+		padding: 6%;
+	}
+	#hero .image {
+		z-index: -100;
+	}
+	#services,
+	#approach,
+	#why,
+	#portfolio,
+	#contact {
+		width: 100%;
+		padding: 0 6%;
+	}
+	#services .row,
+	#approach .col,
+	#why .col,
+	#portfolio .col,
+	#contact .col,
+	#blog .col {
+		flex-direction: column;
+	}
+	#approach .col .image {
+		order: 1;
+	}
+	#approach .col .text {
+		order: 0;
+	}
+	#services .row .col-1,
+	#services .row .col-2,
+	#services .row .col-3 {
+		width: 100%;
+	}
+	#services .row-2 {
+		margin-bottom: 4.6rem;
+	}
+	#approach .col .image,
+	#why .col .image,
+	#portfolio .col .image,
+	#contact .col .image {
+		width: 100%;
+	}
+	#approach .col .text,
+	#why .col .text,
+	#portfolio .col .text,
+	#contact .col .text {
+		margin-left: 0;
+	}
 }
-
 
 /* Large (lg) */
 @media (max-width: 1024px) {
