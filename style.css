@@ -46,7 +46,7 @@ h2 {
 }
 h3 {
 	font-family: 'Fira Sans';
-	font-size: 1.68em;
+	font-size: 1.46em;
 	font-weight: 700;
 	color: var(--black);
 }
@@ -225,16 +225,20 @@ nav {
 	margin-bottom: 12vh;
 }
 .serv-icons {
-	width: 48px;
-	margin-bottom: 0;
+	width: 42px;
+	margin-bottom: -0.8rem;
 }
 #services .col h3 {
 	margin-bottom: 0rem;
+	display: inline-flex;
 }
 
 #services .col p {
 	margin-bottom: 1.6rem;
 	color: var(--midblack);
+	line-height: 1.46rem;
+	overflow: hidden;
+	height: 4.6rem;
 }
 #services a {
 	color: var(--blue);
@@ -390,7 +394,6 @@ footer {
 		margin: 2rem 0 0 auto;
 		width: 80%;
 	}
-
 	/* note */
 	#hero,
 	#services,
@@ -403,6 +406,28 @@ footer {
 		padding: 0 6%;
 	}
 	/*  */
+
+	#approach .col .image {
+		flex: 0.6;
+	}
+	#approach .col .text {
+		flex: 0.4;
+	}
+	#why .col .image,
+	#portfolio .col .image {
+		flex: 0.4;
+	}
+	#why .col .image img,
+	#portfolio .col .image img {
+		width: 100%;
+	}
+	#why .col .text,
+	#portfolio .col .text {
+		flex: 0.6;
+	}
+	#blog {
+		padding: 0 10rem;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.bar {
