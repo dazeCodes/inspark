@@ -24,6 +24,7 @@ body {
 }
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 a {
 	text-decoration: none;
@@ -634,10 +635,18 @@ footer {
 		width: 100%;
 		order: 1;
 	}
+	#contact .col .text {
+		width: 100%;
+		margin-left: 0;
+	}
+	#contact .col .image {
+		width: 88%;
+		margin-left: 0;
+		padding: 2rem 1.2rem;
+	}
 	#approach .col .text,
 	#why .col .text,
-	#portfolio .col .text,
-	#contact .col .text {
+	#portfolio .col .text {
 		margin-left: 0;
 		order: 0;
 	}
@@ -651,6 +660,12 @@ footer {
 	#approach .col .text p {
 		margin-bottom: 3.6rem;
 	}
+	#blog .col .text,
+	#blog .col .image {
+		flex: 1;
+	}
+	#blog .col .image {
+		margin-top: -2rem;
 }
 
 /* Large (lg) */
