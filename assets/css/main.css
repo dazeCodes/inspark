@@ -752,10 +752,10 @@ footer .row .col-2 ul li
 		height: 6rem;
 	}
 	#hero .text p {
-		width: 100%;
+		width: 88%;
 	}
 	#hero {
-		width: 100%;
+		width: 88%;
 		padding: 6%;
 	}
 	#hero .image {
@@ -766,7 +766,7 @@ footer .row .col-2 ul li
 	#why,
 	#portfolio,
 	#contact {
-		width: 100%;
+		width: 88%;
 		padding: 0 6%;
 	}
 	#services .row,
