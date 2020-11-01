@@ -20,7 +20,7 @@ body {
 	padding: 0;
 }
 * {
-	/* border: 1px solid red; */
+	border: 1px solid red;
 }
 html {
 	scroll-behavior: smooth;
@@ -222,7 +222,6 @@ nav {
 }
 #services .row-1 {
 	margin-bottom: 12%;
-	background-color: red;
 }
 .serv-icons {
 	width: 42px;
@@ -501,6 +500,10 @@ footer .row .col-2 ul li
 		min-height: 100%;
 		padding: 0 6%;
 	}
+	nav .container{
+		width: 88%;
+		margin: 0 auto;
+	}
 	/*  */
 
 	#approach .col .image {
@@ -607,11 +610,11 @@ footer .row .col-2 ul li
 	#blog .col .image {
 		flex: 0.5;
 	}
-	footer .col-1,
-	footer .col-2{
-		width: 50%;
-		background-color: red;
-		display: block;
+	footer{
+		display: none;
+	}
+	#footer-two{
+		margin-top: 0;
 	}
 	#footer-two p{
 		flex: 0.4;
@@ -621,14 +624,13 @@ footer .row .col-2 ul li
 		justify-content: space-between;
 
 	}
-	#footer-two ul li a{
-		color: var(--white);
+	.menu-toggle{
+		margin-left: auto;
 	}
-	
 
 	.bar {
 		/* display: block; */
-		width: 18px;
+		width: 20px;
 		height: 2px;
 		border: 0 solid var(--blue);
 		border-radius: 2px;
