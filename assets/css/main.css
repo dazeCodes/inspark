@@ -20,7 +20,7 @@ body {
 	padding: 0;
 }
 * {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 html {
 	scroll-behavior: smooth;
@@ -829,13 +829,13 @@ footer .row .col-2 ul li {
 		width: 100%;
 		margin: auto;
 	}
-	#footer-two ul li:nth-child(2n + 1) {
+	/* #footer-two ul li:nth-child(2n + 1) {
 		margin-left: -2rem;
 	}
 	#footer-two ul li:nth-child(2n + 2) {
 		background-color: red;
 		margin-left: -3rem;
-	}
+	} */
 }
 
 /* Large (lg) */
