@@ -575,6 +575,21 @@ footer .row .col-3 ul {
 		clip-path: circle(1200px at 90% -10%);
 		-webkit-clip-path: circle(1200px at 90% -10%);
 	}
+	.menu-toggle.active .line:nth-child(2) {
+		opacity: 0;
+	}
+	.menu-toggle.active .line:nth-child(1) {
+		-webkit-transform: translateY(8px) rotate(45deg);
+		-ms-transform: translateY(8px) rotate(45deg);
+		-o-transform: translateY(8px) rotate(45deg);
+		transform: translateY(8px) rotate(45deg);
+	}
+	.menu-toggle.active .line:nth-child(3) {
+		-webkit-transform: translateY(-8px) rotate(-45deg);
+		-ms-transform: translateY(-8px) rotate(-45deg);
+		-o-transform: translateY(-8px) rotate(-45deg);
+		transform: translateY(-8px) rotate(-45deg);
+	}
 	#hero {
 		flex-direction: column;
 	}

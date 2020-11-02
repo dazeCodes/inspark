@@ -3,5 +3,5 @@ const navLinks = document.querySelector('.nav-links');
 const links = document .querySelectorAll('nav-links li');
 
 menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active')
+    navLinks.classList.toggle('active');
 })
