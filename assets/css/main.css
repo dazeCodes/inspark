@@ -55,19 +55,23 @@ section:nth-child(2n + 1) {
 }
 #logo {
 	width: 180px;
+	margin-left: 8rem;
+	/* background-color: rebeccapurple; */
 }
 nav {
 	height: 8vh;
 	background-color: var(--white);
+	display: flex;
+	width: 100%;
 }
 .nav-links {
 	display: flex;
-	width: 50%;
+	width: 40%;
 	margin-left: auto;
-	height: 100%;
+	/* height: 100%; */
 	justify-content: space-between;
 	align-items: center;
-	background-color: rebeccapurple;
+	margin-right: 8%;
 }
 .nav-links li a {
 }
@@ -373,6 +377,7 @@ footer {
 footer p,
 footer li a {
 	color: var(--grey);
+	margin-left: -1.64rem;
 }
 footer h3 {
 	color: var(--white);
@@ -534,6 +539,42 @@ footer .row .col-3 ul {
 	}
 }
 @media only screen and (max-width: 768px) {
+	.line {
+		width: 30px;
+		height: 3px;
+		background: var(--blue);
+		margin: 5px 0;
+	}
+	nav {
+		position: relative;
+	}
+	.menu-toggle {
+		position: absolute;
+		cursor: pointer;
+		right: 5%;
+		top: 50%;
+		transform: translate(-5%, -50%);
+		z-index: 10;
+	}
+	.nav-links {
+		position: fixed;
+		background: var(--white);
+		height: 80vh;
+		width: 100%;
+		margin-top: 0;
+		padding-top: 16%;
+		padding-bottom: 6%;
+		flex-direction: column;
+		/* background-color: khaki; */
+		z-index: 1;
+		clip-path: circle(100px at 90% -10%);
+		-webkit-clip-path: circle(100px at 90% -10%);
+		transition: all 1s ease-in-out;
+	}
+	.nav-links.active {
+		clip-path: circle(1200px at 90% -10%);
+		-webkit-clip-path: circle(1200px at 90% -10%);
+	}
 	#hero {
 		flex-direction: column;
 	}
