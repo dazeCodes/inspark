@@ -20,7 +20,7 @@ body {
 	padding: 0;
 }
 * {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 html {
 	scroll-behavior: smooth;
@@ -377,6 +377,9 @@ footer {
 footer p,
 footer a {
 	color: var(--grey);
+}
+footer li {
+	margin-left: -2.46rem;
 }
 footer h3 {
 	color: var(--white);
