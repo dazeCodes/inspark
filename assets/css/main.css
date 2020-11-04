@@ -20,7 +20,7 @@ body {
 	padding: 0;
 }
 * {
-	/* border: 1px solid red; */
+	border: 1px solid red;
 }
 html {
 	scroll-behavior: smooth;
@@ -28,6 +28,9 @@ html {
 }
 a {
 	text-decoration: none;
+}
+li {
+	list-style: none;
 }
 h1 {
 	font-family: 'Fira Sans', sans-serif;
@@ -40,9 +43,6 @@ h2 {
 	font-size: 2.46em;
 	font-weight: 900;
 }
-li {
-	list-style: none;
-}
 h3 {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 1.46em;
@@ -54,9 +54,8 @@ section:nth-child(2n + 1) {
 	z-index: -9999;
 }
 #logo {
-	width: 180px;
-	margin-left: 8rem;
-	/* background-color: rebeccapurple; */
+	width: 120px;
+	margin-left: 7.2rem;
 }
 nav {
 	height: 8vh;
@@ -68,12 +67,12 @@ nav {
 	display: flex;
 	width: 40%;
 	margin-left: auto;
-	/* height: 100%; */
 	justify-content: space-between;
 	align-items: center;
 	margin-right: 8%;
 }
-.nav-links li a {
+.nav-links a {
+	color: var(--midblack);
 }
 
 #blob1 {
