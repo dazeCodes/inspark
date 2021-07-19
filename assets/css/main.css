@@ -20,7 +20,7 @@ body {
 	padding: 0;
 }
 * {
-	border: 1px solid red;
+/* 	border: 1px solid red; */
 }
 html {
 	scroll-behavior: smooth;
